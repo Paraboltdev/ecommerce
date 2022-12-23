@@ -1,0 +1,17 @@
+.main-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap:20px;
+    margin: auto;
+    width: 80%;
+}
+
+.products-title{
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

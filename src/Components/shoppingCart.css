@@ -1,0 +1,27 @@
+
+
+.shopping-container{
+    width: 80%;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ justify-content: center;
+ align-items: center;
+
+}
+
+.shopping-title{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.myCart-div{
+text-align: center;
+margin-top: 15%;
+font-size: 2em;
+color: rgba(255, 0, 0, 0.781);
+}
+
+.myCart-div :nth-child(){
+}

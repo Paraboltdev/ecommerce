@@ -1,0 +1,37 @@
+
+
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.name-div{
+    width: 20%;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 50%;
+}
+ li{
+    list-style: none;
+    margin-right: 20px;
+   
+    color: white;
+    font-size: 1.3em;
+    transition: all ease 0.3s;
+}
+
+li:hover{
+    border-bottom: 1px solid aliceblue;
+    transform: scale(1.2);
+}

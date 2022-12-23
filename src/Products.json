@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"name",
+        "description":"Cafetera",
+        "image":"url"
+
+    },
+    {
+        "id":2,
+        "name":"name2",
+        "description":"Batidora",
+        "image":"url"
+
+    },
+    {
+        "id":3,
+        "name":"name3",
+        "description":"Radio",
+        "image":"url"
+
+    },
+    {
+        "id":4,
+        "name":"name4",
+        "description":"Teclado",
+        "image":"url"
+
+    },
+    {
+        "id":5,
+        "name":"name5",
+        "description":"Guitarra",
+        "image":"url"
+
+    },
+    {
+        "id":6,
+        "name":"name6",
+        "description":"Gafas de sol",
+        "image":"url"
+
+    }
+]

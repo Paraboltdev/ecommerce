@@ -1,0 +1,33 @@
+.cart-card{
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    border: solid black 1px;
+    margin-left: 2%;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+}
+
+.btn-cartcard{
+    width: 15%;
+   
+}
+
+.quantity-div{
+    text-align: center;
+    
+    
+    width: 25%;
+    height: 45%;
+    background-color: rgb(184, 184, 173);
+}
