@@ -12,7 +12,8 @@ import {
   Routes,
 } from "react-router-dom";
 import Navbar from './Components/Navbar';
-import Slider from './Components/Slider';
+
+
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     <div >
     <BrowserRouter>
       <Navbar/>
-     
+    
     <Routes>
 
     <Route path="/" element={<ShopPage />}/>

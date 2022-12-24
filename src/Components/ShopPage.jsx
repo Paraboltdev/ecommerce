@@ -4,7 +4,7 @@ import './shopPage.css'
 import productos from '../productos'
 
 import ItemCard from './ItemCard';
-import Slider from './Slider';
+
 const ShopPage = () => {
 
    

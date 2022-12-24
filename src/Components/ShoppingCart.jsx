@@ -7,7 +7,8 @@ import './shoppingCart.css'
 
 const ShoppingCart = () => {
   const cart = useSelector((state)=> state.cart.cart)
-  const total = useSelector((state)=> state.totalAmount)
+  const total=useSelector((state)=> state.cart)
+  
   console.log(cart.totalAmount)
 
   console.log(cart)
@@ -39,8 +40,8 @@ const ShoppingCart = () => {
       
        
         </section>
-        <div>
-       Total: {total}
+        <div className='total-amonut'>
+       Total: {total.totalAmount} €
         </div>
         </>
   )

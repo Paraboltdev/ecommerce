@@ -25,3 +25,10 @@ color: rgba(255, 0, 0, 0.781);
 
 .myCart-div :nth-child(){
 }
+
+.total-amonut{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 80%;
+}
