@@ -12,6 +12,9 @@ import {
   Routes,
 } from "react-router-dom";
 import Navbar from './Components/Navbar';
+import PayPage from './Components/PayPage';
+import MoviesHttpCall from './Components/MoviesHttpCall';
+
 
 
 
@@ -21,11 +24,12 @@ function App() {
     <div >
     <BrowserRouter>
       <Navbar/>
-    
+   <MoviesHttpCall/>
     <Routes>
 
     <Route path="/" element={<ShopPage />}/>
       <Route path="cart" element={<ShoppingCart />} />
+      <Route path="payment" element={<PayPage />} />
      
     
     </Routes>

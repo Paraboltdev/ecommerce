@@ -15,3 +15,9 @@
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+.slider-div{
+    background-color: aqua;
+    height: 200px;
+}
+@import "~react-image-gallery/styles/css/image-gallery.css";
